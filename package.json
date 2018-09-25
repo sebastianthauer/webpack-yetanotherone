@@ -1,0 +1,26 @@
+{
+  "name": "webpack-yetanotherone",
+  "version": "1.0.0",
+  "description": "webpack",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development ./src/js/main.js --output ./dist/js/main.js",
+    "production": "webpack --mode production ./src/js/main.js --output ./dist/js/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastianthauer/webpack-yetanotherone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebastianthauer/webpack-yetanotherone/issues"
+  },
+  "homepage": "https://github.com/sebastianthauer/webpack-yetanotherone#readme",
+  "dependencies": {
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.20.0",
+    "webpack-cli": "^3.1.1"
+  }
+}
